@@ -1,0 +1,96 @@
+<!DOCTYPE html><html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Humo de Letras</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d0d0d;
+      color: #f0f0f0;
+    }
+    header {
+      background: #111;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      letter-spacing: 2px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1rem;
+    }
+    nav a {
+      color: #f0f0f0;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+    }
+    .catalogo, .contenido-exclusivo, .blog {
+      margin-top: 2rem;
+    }
+    .item {
+      background: #1a1a1a;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 8px;
+    }
+    .whatsapp {
+      display: block;
+      margin: 2rem auto;
+      background: #25d366;
+      color: white;
+      text-align: center;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      width: max-content;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Humo de Letras</h1>
+    <p>Textos Poéticos, Dedicatorias y Contenido Exclusivo</p>
+    <nav>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#exclusivo">Exclusivo</a>
+      <a href="#blog">Blog</a>
+    </nav>
+  </header>  <section id="catalogo" class="catalogo">
+    <h2>Catálogo</h2>
+    <div class="item">
+      <h3>Libro Digital #1</h3>
+      <p>Una colección de poemas oscuros y sinceros.</p>
+    </div>
+    <div class="item">
+      <h3>Imagen con Dedicatoria</h3>
+      <p>Pide una imagen personalizada con versos únicos para esa persona especial.</p>
+    </div>
+  </section>  <section id="exclusivo" class="contenido-exclusivo">
+    <h2>Contenido Personalizado</h2>
+    <p>Encarga un poema hecho solo para ti o alguien especial. Cada palabra será escrita con intención.</p>
+  </section><a class="whatsapp" href="https://wa.me/573052891578">Haz tu pedido por WhatsApp</a>
+
+  <section id="blog" class="blog">
+    <h2>Blog</h2>
+    <div class="item">
+      <h3>Verso de la Semana</h3>
+      <p>“La noche no duerme, solo finge silencio.”</p>
+    </div>
+    <div class="item">
+      <h3>Reflexión</h3>
+      <p>Escribir es fumar con el alma. Cada línea quema, cada palabra es ceniza.</p>
+    </div>
+  </section>
+</body>
+</html>
